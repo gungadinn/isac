@@ -1,6 +1,7 @@
 # ISAC
 
 * INTEGRATED SYSTEM FOR ANSWERING CUSTOMER JUSTICE USING NLP
+* NLP를 통한 소비자 민원 자동 답변 시스템
 
 <br>
 
@@ -26,9 +27,3 @@
    * 4가지 모델의 아웃풋의 조합으로 답변 템플릿 생성
 
 <br>
-
-### Result Page
-
----
-
-![resultPage](/img/result.png)

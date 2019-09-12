@@ -8,9 +8,7 @@
 
 ---
 
-![demo](https://imgur.com/N6rB9xs)
-
-<br>
+![demo](/img/demo.png)<br>
 
 ### Models
 
@@ -33,4 +31,4 @@
 
 ---
 
-![resultPage](https://imgur.com/IfdUv36)
+![resultPage](/img/result.png)

@@ -30,32 +30,6 @@ BeatifulSoup를 이용하여 MySQL에 저장
 
 <br>
 
-<h3>ISAC model</h3>
-
----
-
-<h4>1. word2hybrid model</h4>
-
-* 입력한 제목을 기반으로 유사한 답변을 뽑아주는 모델
-
-<h4>2. word2criteria model </h4>
-
-* 사용자의 input으로부터 제목과 분류, 그리고 질문 내용을 가져온다
-* 선택한 중분류와 일치하는 모범상담 태그를 가져와 저장
-* ETRI API를 이용하여, 제목과 질문을 합친 텍스트의 명사 형태소를 생성하여 저장
-
-<h4>3. word2judge model</h4>
-
-* 답변 생성을 위한 다양한 모델들의 집합
-
-<br>
-
-### Homepage UI
-
----
-
-![demo](/img/demo.png)<br>
-
 ### Models
 
 ---
@@ -70,5 +44,13 @@ BeatifulSoup를 이용하여 MySQL에 저장
    * 답변 생성을 위한 다양한 모델들의 집합
    * 소비자원에서 제공하는 답변의 구조대로 모델 생성 :  추가서류 여부, 소비자가 협상할 상황인지 여부, 소비자원에서 전화상으로 협상 권고를 하는 경우, 구제서류 제출을 요구하는 경우
    * 4가지 모델의 아웃풋의 조합으로 답변 템플릿 생성
+
+<br>
+
+### Homepage UI
+
+---
+
+![demo](/img/demo.png)<br>
 
 <br>
